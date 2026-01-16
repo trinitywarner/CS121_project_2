@@ -1,3 +1,5 @@
+// this is tagalong and semi-personal attempt
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
