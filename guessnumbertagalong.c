@@ -31,14 +31,23 @@ int main(){
 
 		if (guess < correct){
 			printf("Too low. \n");
-		} else if (guess > correct)
+		} else if (guess > correct){
 			printf("Too high. \n");
 		} else {
 			printf("Nice one! \n");
 			keepGoing = FALSE;
 		} // ending if
 
+// self turn attempt		
+	if (turns < 7){
+		printf("Impressive tries!");
+	} else if (turns > 7){
+		printf("Not bad, but not good.");
+	} else {
+		printf("Alright!");
+	} // ending if
+
 	} // ending while
 	return 0;
-}
+} // ending main
 

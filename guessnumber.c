@@ -1,3 +1,6 @@
+// this was my own personal attempt.
+// did not properly follow algorithm, which led to confusion so on and so forth...
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
